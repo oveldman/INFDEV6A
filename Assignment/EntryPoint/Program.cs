@@ -12,12 +12,12 @@ namespace EntryPoint
     {
       Console.Write("Going strong at level " + n + "\r                       ");
       CrashMe(n + 1);
-    }
+    }  
 
     [STAThread]
     static void Main()
     {
-      CrashMe(0);
+    //  CrashMe(0);
 
       var fullscreen = false;
       read_input:
